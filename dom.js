@@ -44,16 +44,16 @@ var item  = document.querySelector('.list-group-item');
 item.style.color = 'red';
 
 var lastItem  = document.querySelector('.list-group-item:last-child');
-lastItem.style.color = 'green';
+lastItem.style.color = 'blue';
 
 var secondItem  = document.querySelector('.list-group-item:nth-child(2)');
-secondItem.style.color = 'blue';  */
+secondItem.style.color = 'green';  */
 
 // QuerySelector
 var titles = document.querySelectorAll('.title');
 console.log(titles);
 
-titles[1].textContent = 'Hello';
+//titles[1].textContent = 'Hello';
 
 /* for odd children
 var odd = document.querySelectorAll('li:nth-child(odd)');
